@@ -3,14 +3,13 @@
 
 const { createHmac } = require('crypto');
 
-// --- CONFIGURATION (FILL IN YOUR KEYS HERE) ---
-const BOT_TOKEN = '8367361021:AAFS-poEFQzQVDynh4w8lxLURc7niQ7xELU'; 
-const ADMIN_USER_ID = '1704412577'; 
-const SOLANA_RPC_URL = 'https://quaint-weathered-aura.solana-mainnet.quiknode.pro/7414e45744be9288c98c232f184d9a40bc6b86d5/'; 
-
-const WIENER_CA = 'CceCXFy4UeXheTpf8sn1bpECxMQeH5BTyxQK4BdRMf2T';
-const SPIN_COST = 1.0;
-
+M VERCEL SETTINGS) ---
+// Keys are now read from the Vercel project's Environment Variables
+const BOT_TOKEN = process.env.8367361021:AAFS-poEFQzQVDynh4w8lxLURc7niQ7xELU; 
+const ADMIN_USER_ID = process.env.1704412577https://quaint-weathered-aura.solana-mainnet.quiknode.pro/7414e45744be9288c98c232f184d9a40bc6b86d5/; 
+const SOLANA_RPC_URL = process.env.SOLANA_RPC_URL; 
+// --- END SECURE CONFIG ---
+// --- CONFIGURATION (NOW READING SECRETS FRO
 // --- UTILITY FUNCTIONS ---
 
 function checkTelegramAuth(initData, botToken) {
