@@ -4,9 +4,9 @@
 const { createHmac } = require('crypto');
 
 // --- CONFIGURATION (FILL IN YOUR KEYS HERE) ---
-const BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'; 
-const ADMIN_USER_ID = '123456789'; 
-const SOLANA_RPC_URL = 'YOUR_SOLANA_RPC_URL_HERE'; 
+const BOT_TOKEN = '8367361021:AAFS-poEFQzQVDynh4w8lxLURc7niQ7xELU'; 
+const ADMIN_USER_ID = '1704412577'; 
+const SOLANA_RPC_URL = 'https://quaint-weathered-aura.solana-mainnet.quiknode.pro/7414e45744be9288c98c232f184d9a40bc6b86d5/'; 
 
 const WIENER_CA = 'CceCXFy4UeXheTpf8sn1bpECxMQeH5BTyxQK4BdRMf2T';
 const SPIN_COST = 1.0;
